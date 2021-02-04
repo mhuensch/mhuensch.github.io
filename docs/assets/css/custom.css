@@ -17,3 +17,67 @@
 .post-title {
   padding-top: 30px;
 }
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+h1, h2, h3, h4, strong, .post-title {
+  color: #D74141;
+}
+
+blockquote {
+  background: #444;
+  color: #fff;
+}
+
+.post-content a {
+  border-bottom: 1px solid #D74141;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all ease-out 0.2s;
+}
+
+a:hover {
+  color: #D74141 !important;
+}
+
+em, i {
+  font-style: italic;
+  color: #fff;
+}
+
+#menu {
+  background: #333;
+  color: #fff;
+}
+
+#menu li.active:after {
+  background: #D74141;
+}
+
+
+#menu .close-button {
+  border-color: #D74141 !important;
+}
+
+#menu .close-button:hover:after {
+  background: #fff !important;
+}
+
+#menu .close-button:hover:before {
+  background: #fff !important;
+}
+
+#menu li a {
+  color: #fff;
+}
+
+#menu li.active a {
+  color: #ddd;
+}
