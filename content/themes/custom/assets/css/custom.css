@@ -19,7 +19,7 @@
 }
 
 body {
-  background: #333;
+  background: #181818;
   color: #fff;
 }
 
@@ -47,13 +47,17 @@ a:hover {
   color: #D74141 !important;
 }
 
+a.primary {
+  border-bottom: 1px solid #D74141; 
+}
+
 em, i {
   font-style: italic;
   color: #fff;
 }
 
 #menu {
-  background: #333;
+  background: #181818;
   color: #fff;
 }
 
